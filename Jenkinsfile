@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Build starting'
+				sh 'gradle build --info'
             }
         }
         stage('Test') {
