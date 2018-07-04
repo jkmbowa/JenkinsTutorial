@@ -34,11 +34,12 @@ dependencies {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/")
-            authentication(userName:admin,password:admin890)
-            pom.groupId ='JamesTest' 
-            pom.artifactId ='HelloWorld' 
-            pom.version='0.1.0' 
+            repository(url: "http://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/"){
+                authentication(userName:"admin",password:"admin890")
+                pom.groupId ='JamesTest' 
+                pom.artifactId ='HelloWorld' 
+                pom.version='0.1.0'
+            }
         }
     }
 }
