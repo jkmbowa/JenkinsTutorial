@@ -54,9 +54,10 @@ uploadArchives {
     repositories {
         mavenDeployer {
             repository(url: "file://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/")
-            pom.version='1.0'
+            authentication(userName: "admin", password: "admin890")
+            pom.groupId='JamesHelloWorld'
             pom.artifactId='JamesHelloWorld'
-            pom.packaging='aar'
+            pom.version='1.0'
         }
     }
 }
