@@ -31,7 +31,7 @@ dependencies {
 
 }
 
-configurations.archives.artifacts.removeAll {it.type == ‘jar’}
+configurations.archives.artifacts.removeAll {it.type == jar}
 
 uploadArchives {
     repositories {
