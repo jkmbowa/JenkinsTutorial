@@ -41,17 +41,6 @@ jar {
 }
 
 
-
-task myJar(type: Jar)
-
-
-
-artifacts {
-
-    archives myJar
-
-}
-
 project.plugins.apply('maven')
 
 uploadArchives {
