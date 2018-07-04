@@ -1,11 +1,11 @@
-apply plugin: 'java'
+sapply plugin: 'java'
 
 
 
 repositories {
     mavenCentral()
     maven {
-        url "http://ec2-35-177-204-225.eu-west-2.compute.amazonawn.com:8081/repository/maven-releases/"
+        url "http://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/"
     }
 }
 
@@ -20,7 +20,7 @@ targetCompatibility = 1.8
 dependencies {
 
     compile "joda-time:joda-time:2.2"
-    compile "HelloWorld:HelloWorld:0.1.0"
+    compile "Hello:Hello:0.1.0"
 
     testCompile "junit:junit:4.12"
 
