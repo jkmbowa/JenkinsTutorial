@@ -47,3 +47,16 @@ artifacts {
     archives myJar
 
 }
+
+uploadArchives {
+    repositories {
+        add project.artifacts.myJar
+        ivy {
+            credentials {
+                username "admin"
+                password "admin890"
+            }
+            url "http://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/"
+        }
+    }
+}
