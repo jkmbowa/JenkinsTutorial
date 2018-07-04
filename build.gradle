@@ -5,7 +5,7 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
     maven {
-        url "http://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/"
+        url "http://ec2-35-177-204-225.eu-west-2.compute.amazonawn.com:8081/repository/maven-releases/"
     }
 }
 
