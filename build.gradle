@@ -48,7 +48,7 @@ artifacts {
 
 }
 
-uploadArchives {
+project.uploadArchives {
     repositories {
         mavenDeployer {
             repository(url: "file://ec2-35-177-204-225.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/")
