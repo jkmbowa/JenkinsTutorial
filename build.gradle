@@ -1,4 +1,4 @@
-sapply plugin: 'java'
+apply plugin: 'java'
 
 
 
