@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
     maven {
         url "http://ec2-18-130-121-188.eu-west-2.compute.amazonaws.com:8081/repository/maven-releases/"
+        credentials {
+            username "admin"
+            password "admin890"
+        }
     }
 }
 
