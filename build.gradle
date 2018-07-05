@@ -38,7 +38,7 @@ uploadArchives {
                 authentication(userName:"admin",password:"admin890")
                 pom.groupId ='JamesTest' 
                 pom.artifactId ='HelloWorld' 
-                pom.version='0.1.0'
+                pom.version='0.1.1'
             }
         }
     }
